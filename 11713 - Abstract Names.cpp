@@ -7,7 +7,8 @@ bool inTarget(char in){
 	const char *target="aeiou";
 	for(int i=0;i<5;i++)
 	{
-		if(in==target[i]){
+		if(in==target[i])
+		{
 			return true;
 		}
 	}
